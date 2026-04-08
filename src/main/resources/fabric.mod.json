@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "gravity-flip",
+  "version": "1.0.0",
+  "name": "Gravity Flip",
+  "description": "Adds a Gravity Flipper item to flip gravity upside down",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.gravityflip.GravityFlipMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
